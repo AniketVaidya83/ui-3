@@ -1,0 +1,124 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+.container{
+    width: 100%;
+    height: 120vh;
+    display: flex;    
+}
+.leftpart{
+    width: 60%;
+    height: 90vh;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+}
+.leftpart img{
+    width: 200px;
+    height: 150px;
+    top: 5px;
+    left: 45px;
+    position: absolute;
+}
+.leftpart h1{
+    font-size: 45px;
+    line-height: 40px;
+    font-family: sans-serif;
+    color: rgb(243, 159, 4);
+    margin-top: 200px;
+    padding-right: 55px;
+}
+.leftpart p{
+    font-size: 18px;
+    line-height: 25px;
+    font-weight: 500;
+    margin-top: 40px;
+    font-family: sans-serif;
+    padding-right: 120px;
+}
+#spantag{
+    width: 70%;
+    display: flex;
+    align-items: start;
+    justify-content: space-between;
+    margin-top: 30px;
+    line-height: 20px;
+    padding-right: 130px;
+    margin-left: -15px;
+    margin-bottom: 50px;
+}
+#spantag h4{
+    font-size: 14px;
+    line-height: 15px;
+    color: grey;
+}
+#spantag h3{
+    margin-top: 15px;
+}
+#spantig{
+    width: 80%;
+    display: flex;
+    align-items:start;
+    justify-content: space-around;
+    margin-bottom: 50px;
+    /* border: 2px solid red; */
+    padding-right: 110px;
+    
+}
+
+#first{
+    background-color: rgb(243, 159, 4);
+    width: 210px;
+    height: 60px;
+    border-radius: 10px;
+    border: 3px solid rgb(243, 159, 4);
+    /* background: transparent; */
+    color:white;
+    font-size: 25px;
+    font-weight: 500;
+}
+#second{
+    background-color: rgb(243, 159, 4);
+    width: 210px;
+    height: 60px;
+    border-radius: 10px;
+    border: 3px solid rgb(243, 159, 4);
+    background: transparent;
+    color: rgb(243, 159, 4);
+    font-size: 25px;
+    font-weight: 500;
+}
+
+
+.rightpart{
+    width: 50%;
+    height: 90vh;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    /* position: absolute; */
+    border: 3px solid rgb(189, 42, 42);  
+    
+}
+#girl{
+    height: 700px;
+    width: 90%;
+    display: flex;
+    align-items: center;
+    justify-content:center;
+    /* position:absolute; */
+    margin-top: 30px;
+    margin-left: 100px;
+
+}
+#post{
+    display: flex;
+    align-items: center;
+    justify-content: start;
+    margin-top: 450px;
+    position: absolute;
+    margin-left: 100px;
+}
